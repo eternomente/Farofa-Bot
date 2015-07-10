@@ -30,7 +30,7 @@
     "notdisconnected": "/me @%%NAME%% não saiu enquanto esteve aqui.",
     "noposition": "/me Última posição não reconhecida. A fila de espera precisa ser atualizada pelo menos uma vez para registrar posições.",
     "toolongago": "/me @%%NAME%% desconectou-se a muito tempo, mana: %%TIME%%.",
-    "valid": "/me @%%NAME%% desconectou-se %%TIME%% atrás e deve ter posição %%POSITION%%.",
+    "valid": "/me @%%NAME%% desconectou-se há %%TIME%% atrás e deve ter a posição %%POSITION%%.",
 
 
     "warning1": "@%%NAME%%, você esteve inativo por %%TIME%%, responda dentro de 2 minutos ou você será removido da fila de espera.",
