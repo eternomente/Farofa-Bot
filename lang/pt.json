@@ -7,15 +7,15 @@
     "online": "/me %%BOTNAME%% v%%VERSION%% bem finíssimo ativado!",
 
 
-    "welcome": "Seja bem-vindo(a), @%%NAME%%, leia nossas regras para não fazer nenhuma besteira [link soon] :sparkling_heart:",
-    "welcomeback": "Seja bem-vindo(a) de volta, @%%NAME%% :purple_heart: :purple_heart:",
+    "welcome": "Seja bem-vindo(a), @%%NAME%%!",
+    "welcomeback": "Seja bem-vindo(a) de volta, @%%NAME%%!",
     "songknown": "@%%NAME%%, essa música está no histórico, vou pular",
     "timelimit": "@%%NAME%%, sua música tem duração maior que %%MAXLENGTH%% minutos. Você não pode rodar videos longos assim.",
     "permissionownsong": "/me :up: @%%NAME%% tem permissão para tocar música de própria autoria!",
     "isblacklisted": "/me Essa música está na lista negra %%BLACKLIST%%! Pulando música...",
 
 
-    "isopen": "/me A roleta foi iniciada! Use !join para participar! Você poderá ser movido para cima ou para baixo na fila.",
+    "isopen": "/me A roleta foi iniciada! Use !join para participar! (Você será movido para um lugar aleatório na lista de espera)",
     "winnerpicked": "/me Um vencedor foi escolhido! @%%NAME%% ganhou a posição %%POSITION%%.",
     
     "ball": "/me A pergunta de %%NAME%% foi: \"%%QUESTION%%\" e a resposta de %%BOTNAME%% é: \"%%RESPONSE%%\"",
@@ -27,9 +27,9 @@
 
 
     "usernotfound": "/me Usuário não encontrado.",
-    "notdisconnected": "/me @%%NAME%% não saiu enquanto estive frescando aqui.",
+    "notdisconnected": "/me @%%NAME%% não saiu enquanto esteve aqui.",
     "noposition": "/me Última posição não reconhecida. A fila de espera precisa ser atualizada pelo menos uma vez para registrar posições.",
-    "toolongago": "/me @%%NAME%% desconectou-se a muito tempo: %%TIME%%, não fode",
+    "toolongago": "/me @%%NAME%% desconectou-se a muito tempo, mana: %%TIME%%.",
     "valid": "/me @%%NAME%% desconectou-se %%TIME%% atrás e deve ter posição %%POSITION%%.",
 
 
@@ -92,21 +92,21 @@
     "autowoot": "/me Nós recomendamos o Autowoot Origem Woot: http://origem-woot.net/",
     "brandambassador": "/me Um Embaixador de Marca é a voz dos usuários do plug.dj. Eles promovem eventos, ajudam as comunidades e divulgam a plug.dj para todo o mundo. Mais info: https://plug.dj/ba",
     "bouncerplusrank": "/me [@%%NAME%%] Você precisa ser Coordenador ou superior para ativar o Segurança+, mana.",
-    "chatcleared": "/me [@%%NAME%%] limpou o chat com o cu dele.",
-    "deletechat": "/me [@%%NAME%%] O chat de %%USERNAME%% foi limpo com o cu dele.",
+    "chatcleared": "/me [@%%NAME%%] limpou o chat dele.",
+    "deletechat": "/me [@%%NAME%%] O chat de %%USERNAME%% foi limpo.",
     "commandslink": "/me Comandos do %%BOTNAME%%: %%LINK%%",
     "eatcookie": "/me ama mamar.",
     "nousercookie": "/em Não vejo %%NAME%% na sala. Vou comer esse cookie sozinho. :full_moon_with_face:",
-    "selfcookie": "/me @%%NAME%%, você é mesquinhx mesmo viu? DIVIDE COM OS OUTROS MANA, de nada :purple_heart:",
+    "selfcookie": "/me @%%NAME%%, você é mesquinhx mesmo viu? DIVIDE COM OS OUTROS MANA :purple_heart:",
     "cookie": "/me @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%%",
     "cycleguardtime": "/me [@%%NAME%%] A proteção de ciclo agora é: %%TIME%% minuto(s).",
     "dclookuprank": "/me [@%%NAME%%] Somente Seguranças ou superiores podem usar !dclookup em outros usuários.",
     "emojilist": "/me Emojis: %%LINK%%",
     "notinwaitlist": "@%%NAME%%, você não está na lista de espera.",
     "eta": "/me @%%NAME%%, você tocará em aproximadamente %%TIME%% <3.",
-    "facebook": "/me (Sem página/grupo no Facebook)",
+    "facebook": "Facebook: https://facebook.com/farofadasdivaspop",
     "starterhelp": "/me Essa imagem te ajudará a usar e entender o plug.dj: %%LINK%%",
-    "roulettejoin": "/me @%%NAME%% entrou na roleta! (Use !leave caso queira sair!.)",
+    "roulettejoin": "/me @%%NAME%% entrou na roleta! (Use !leave para sair!.)",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% esteve na sala por %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Você não pode kickar alguém do mesmo rank ou superior, seu flopado!",
     "kick": "[@%%NAME%%], @%%USERNAME%% você está sendo kickado da comunidade por %%TIME%% minutos.",
