@@ -7,8 +7,8 @@
     "online": "/me %%BOTNAME%% v%%VERSION%% bem finíssimo ativado!",
 
 
-    "welcome": "Seja bem-vindo(a), @%%NAME%%!",
-    "welcomeback": "Seja bem-vindo(a) de volta, @%%NAME%%!",
+    "welcome": "Bem-vindo(a), %%NAME%%",
+    "welcomeback": "Bem-vindo(a) de volta, %%NAME%%",
     "songknown": "@%%NAME%%, essa música está no histórico, vou pular",
     "timelimit": "@%%NAME%%, sua música tem duração maior que %%MAXLENGTH%% minutos. Você não pode rodar videos longos assim.",
     "permissionownsong": "/me :up: @%%NAME%% tem permissão para tocar música de própria autoria!",
