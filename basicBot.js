@@ -302,7 +302,7 @@
                 }
             },
             queueing: 0,
-            queueable: true,
+            queueable: false,
             currentDJID: null,
             historyList: [],
             cycleTimer: setTimeout(function () {
