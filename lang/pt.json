@@ -27,7 +27,7 @@
 
 
     "usernotfound": "/me Usuário não encontrado.",
-    "notdisconnected": "/me @%%NAME%% não saiu enquanto esteve aqui.",
+    "notdisconnected": "/me @%%NAME%% não saiu enquanto estava aqui.",
     "noposition": "/me Última posição não reconhecida. A fila de espera precisa ser atualizada pelo menos uma vez para registrar posições.",
     "toolongago": "/me @%%NAME%% desconectou-se a muito tempo, mana: %%TIME%%.",
     "valid": "/me @%%NAME%% desconectou-se há %%TIME%% atrás e deve ter a posição %%POSITION%%.",
@@ -106,7 +106,7 @@
     "eta": "/me @%%NAME%%, você tocará em aproximadamente %%TIME%% <3.",
     "facebook": "Facebook: https://facebook.com/farofadasdivaspop",
     "starterhelp": "/me Essa imagem te ajudará a usar e entender o plug.dj: %%LINK%%",
-    "roulettejoin": "/me @%%NAME%% entrou na roleta! (Use !leave para sair!.)",
+    "roulettejoin": "/me @%%NAME%% entrou na roleta! (Use !leave para sair!)",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% esteve na sala por %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Você não pode kickar alguém do mesmo rank ou superior, seu flopado!",
     "kick": "[@%%NAME%%], @%%USERNAME%% você está sendo kickado da comunidade por %%TIME%% minutos.",
