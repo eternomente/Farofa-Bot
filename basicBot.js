@@ -1726,12 +1726,14 @@
                     'tirou 8 bolas de boliche do cu para vocês jogarem juntos',
                     'disse que você é flopado',
                     'pediu pra você engravidar ele',
-                    'te chamou de flopado e disse que já pode fazer um álbum jazz',
+                    'BUY ARTPOP ON ITUNES! :large_blue_circle:',
+                    'BUY GOOD FOR YOU ON ITUNES!'
+                    'BUY COOL FOR THE SUMMER ON ITUNES'
                     'please freestyle for us!',
                     'disse que você ta se achando a rola que matou Cazuza',
                     'para de tentar fazer o barro acontecer, isso nunca mais pegar',
-                    'espalhou para todo mundo que te deu ontem!',
-                    'quer criar um álbum jazz com você porque são 2 flopados.',
+                    'espalhou pra todo mundo que te deu ontem!',
+                    'quer criar um álbum jazz com você porque são 2 flopados',
                     'disse pra você mandar nudes'
                 ],
                 getCookie: function () {
