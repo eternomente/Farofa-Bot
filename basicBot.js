@@ -1734,7 +1734,7 @@
                     'para de tentar fazer o barro acontecer, isso nunca mais pegar',
                     'espalhou pra todo mundo que te deu ontem!',
                     'quer criar um álbum jazz com você porque são 2 flopados',
-                    'disse pra você mandar nudes'
+                    'disse pra você mandar nudes :full_moon_with_face:'
                 ],
                 getCookie: function () {
                     var c = Math.floor(Math.random() * this.cookies.length);
