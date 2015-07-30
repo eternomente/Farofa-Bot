@@ -1940,7 +1940,7 @@
                 }
             },
 
-            deletechatCommand: {
+            /*deletechatCommand: {
                 command: 'deletechat',
                 rank: 'mod',
                 type: 'startsWith',
