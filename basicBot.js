@@ -1333,7 +1333,7 @@
                         }
                         break;
                     case 'bouncer':
-                        minPerm = 2;
+                        minPerm = 3;
                         break;
                     case 'residentdj':
                         minPerm = 1;
