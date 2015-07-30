@@ -90,7 +90,7 @@
     "afkstatusreset": "/me [@%%NAME%%] Status AFK resetado: @%%USERNAME%%.",
     "inactivefor": "/me [@%%NAME%%] @%%USERNAME%% esteve inativo por %%TIME%%.",
     "autowoot": "/me Nós recomendamos o Autowoot Origem Woot: http://origem-woot.net/",
-    "brandambassador": "/me Um Embaixador de Marca é a voz dos usuários do plug.dj. Eles promovem eventos, ajudam as comunidades e divulgam a plug.dj para todo o mundo. Mais info: https://plug.dj/ba",
+    "brandambassador": "/me Um Embaixador de Marca é a voz dos usuários no plug.dj. Eles promovem eventos, ajudam as comunidades e divulgam o plug.dj para todo o mundo. Mais info: https://plug.dj/ba",
     "bouncerplusrank": "/me [@%%NAME%%] Você precisa ser Coordenador ou superior para ativar o Segurança+, mana.",
     "chatcleared": "/me [@%%NAME%%] limpou o chat!",
     "deletechat": "/me [@%%NAME%%] O chat de %%USERNAME%% foi limpo.",
