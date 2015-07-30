@@ -110,7 +110,7 @@
     "cycleguardtime": "/me [@%%NAME%%] A proteção de ciclo agora é: %%TIME%% minuto(s).",
     "dclookuprank": "/me [@%%NAME%%] Somente Seguranças ou superiores podem usar !dclookup em outros usuários.",
     "emojilist": "/me Emojis: %%LINK%%",
-    "notinwaitlist": "@%%NAME%%, você não está na lista de espera.",
+    "notinwaitlist": "/me @%%NAME%%, você não está na lista de espera.",
     "eta": "/me @%%NAME%%, você tocará em aproximadamente %%TIME%% :sparkling_heart: ",
     "facebook": "Facebook: https://facebook.com/farofadasdivaspop",
     "starterhelp": "/me Essa imagem te ajudará a usar e entender o plug.dj: %%LINK%%",
