@@ -1363,7 +1363,7 @@
              **/
 
             activeCommand: {
-                command: 'active',
+                command: ['active','ativos'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
