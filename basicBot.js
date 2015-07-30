@@ -1290,7 +1290,7 @@
                 if (emojibuttonoff.length > 0) {
                     emojibuttonoff[0].click();
                 }
-                API.chatLog(':smile: Emojis enabled.');
+                API.chatLog(':smile: Emojis ativados.');
             }
             else {
                 var emojibuttonon = $(".icon-emoji-on");
@@ -1299,8 +1299,8 @@
                 }
                 API.chatLog('Emojis disabled.');
             }
-            API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
-            API.chatLog('Volume set to ' + basicBot.settings.startupVolume);
+            API.chatLog('Avatares limitado a ' + basicBot.settings.startupCap);
+            API.chatLog('Volume ajustado para ' + basicBot.settings.startupVolume);
             loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
         commands: {
