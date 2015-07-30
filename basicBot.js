@@ -541,7 +541,7 @@
                         rankInt = 3;
                         break;
                     case "bouncer":
-                        rankInt = 2;
+                        rankInt = 3;
                         break;
                     case "residentdj":
                         rankInt = 1;
@@ -1333,7 +1333,7 @@
                         }
                         break;
                     case 'bouncer':
-                        minPerm = 3;
+                        minPerm = 2;
                         break;
                     case 'residentdj':
                         minPerm = 1;
