@@ -40,13 +40,13 @@
 
     "caps": "@%%NAME%%, desligue seu capslock, por favor!",
     "askskip": "@%%NAME%%, não peça para pular.",
-    "spam": "/me @%%NAME%%, não faça spam caralho.",
+    "spam": "/me @%%NAME%%, não faça spam.",
     "roomadvertising": "@%%NAME%%, não poste link de outras comunidades aqui ou será banido(a)!.",
-    "adfly": "@%%NAME%%, mude seu autowoot. Nós sugerimos o Origem Woot: http://origem-woot.net/",
+    "adfly": "@%%NAME%%, mude seu autowoot. Nós sugerimos o Origem Woot: http://origem-woot.net/Instalation",
 
     "validgiftags": "/me [@%%NAME%%] http://media.giphy.com/media/%%ID%%/giphy.gif [Tags: %%TAGS%%]",
     "invalidgiftags": "/me [@%%NAME%%] Tag inválida, tente algo diferente. [Tags: %%TAGS%%]",
-    "validgifrandom": "/me [@%%NAME%%] http://media.giphy.com/media/%%ID%%/giphy.gif [GIF randômica]",
+    "validgifrandom": "/me [@%%NAME%%] http://media.giphy.com/media/%%ID%%/giphy.gif [GIF aleatório]",
     "invalidgifrandom": "/me [@%%NAME%%] Instância inválida, tente novamente.",
 
     "invalidtime": "/me [@%%NAME%%] Tempo inválido.",
@@ -58,7 +58,7 @@
     "nolimitspecified": "/me [@%%NAME%%] Limite não especificado.",
     "invalidlimitspecified": "/me [@%%NAME%%] Limite inválido.",
     "invalidpositionspecified": "/me [@%%NAME%%] Posição inválida.",
-    "whois": "/me [%%NAME1%%] Viadão: %%NAME2%%, ID: %%ID%%, Rank: %%RANK%%, Registro: %%JOINED%%, Nível: %%LEVEL%%, Linguagem: %%LANGUAGE%%, Avatar: %%AVATAR%%, Status: %%STATUS%%%%PROFILE%%",
+    "whois": "/me [%%NAME1%%] User: %%NAME2%%, ID: %%ID%%, Rank: %%RANK%%, Registro: %%JOINED%%, Nível: %%LEVEL%%, Linguagem: %%LANGUAGE%%, Avatar: %%AVATAR%%, Status: %%STATUS%%%%PROFILE%%",
     "toggleon": "/me [@%%NAME%%] %%FUNCTION%% ativado!",
     "toggleoff": "/me [@%%NAME%%] %%FUNCTION%% desativado!",
     "afkremoval": "Remoção de AFKs",
