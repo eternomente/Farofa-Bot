@@ -1,23 +1,23 @@
-Exercito Bot
+Farofa Bot
 ========
 
-Um bot delicioso para o Plug.dj
+Um bot kawaii para o plug.dj
 
-!!!Para customizar, use [ESTA PRE EDIÇÃO](https://github.com/B1G-B0SS/basicBot-customization)!!!
+!!!Para customizar, use [ESTA PRE EDIÇÃO](https://github.com/BotFarofa/basicBot-customization)!!!
 ==============================================================================================
 
 Uso
 -----
 
-Salve nos favoritos o codigo. Para rodar o bot, rode o favoritado.
+Salve o código nos favoritos. Para ligar o bot, pressione o botão favoritado.
 
-`javascript:(function(){$.getScript('https://rawgit.com/B1G-B0SS/Exercito-Bot/master/basicBot.js');})();`
+`javascript:(function(){$.getScript('https://rawgit.com/BotFarofa/Farofa-Bot/master/basicBot.js');})();`
 
-Se não funcionar, vá em https://raw.githubusercontent.com/B1G-B0SS/Exercito-Bot/master/basicBot.js Copie, e cole o conteudo completo no console (F12) dentro da sua sala do Plug.DJ.
+Se não funcionar, vá em https://raw.githubusercontent.com/BotFarofa/Farofa-Bot/master/basicBot.js Copie, e cole o conteudo completo no console (F12) dentro da sua sala do plug.dj.
 
 ###Comandos###
 
-Os comandos podem ser encontrados [aqui](https://github.com/B1G-B0SS/Exercito-Bot/blob/master/commands.md).
+Os comandos podem ser encontrados [aqui](https://github.com/BotFarofa/Farofa-Bot/blob/master/commands.md).
 
 Creditos
 -------
