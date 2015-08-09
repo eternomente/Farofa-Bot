@@ -1726,7 +1726,7 @@
                     'BUY PRETTY GIRLS ON ITUNES!',
                     'disse que você é flop',
                     'pediu pra você engravidar ele(a)',
-                    'disse: BUY ARTPOP ON ITUNES! :large_blue_circle:',
+                    'disse: BUY ARTPOP ON ITUNES! :large_blue_circle: http://i.imgur.com/uaek1Pb.gif',
                     'disse: BUY GOOD FOR YOU ON ITUNES!',
                     'disse: BUY COOL FOR THE SUMMER ON ITUNES',
                     'ligou pro Jayz Z Airlines pedindo pra derrubar seu próximo vôo',
