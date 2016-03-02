@@ -1218,7 +1218,7 @@
             basicBot.connectAPI();
             API.moderateDeleteChat = function (cid) {
                 $.ajax({
-                    url: "https://plug.dj/_/chat/" + cid,
+                    url: "https://stg.plug.dj/_/chat/" + cid,
                     type: "DELETE"
                 })
             };
