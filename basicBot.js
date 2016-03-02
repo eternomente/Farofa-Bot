@@ -357,7 +357,7 @@
                     }, 1 * 1000, winner, pos);
                 }
             },
- -          usersUsedThor: []
+           usersUsedThor: []
         },
         User: function (id, name) {
             this.id = id;
