@@ -3035,7 +3035,7 @@
                     }
                 }
             },
-
+/*
 	    thorCommand: {
         	command: 'thor',
         	rank: 'user',
@@ -3104,7 +3104,7 @@
                     }
                 }
             },
-
+*/
             timeguardCommand: {
                 command: 'timeguard',
                 rank: 'bouncer',
