@@ -215,8 +215,6 @@
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            thorCommand: false,
-            thorCooldown: 10,
             lockskipPosition: 3,
             lockskipReasons: [
                 ["pqs", "Por que eu quis, palhaço. "],
@@ -356,8 +354,7 @@
                         basicBot.userUtilities.moveUser(winner, pos, false);
                     }, 1 * 1000, winner, pos);
                 }
-            },
-            usersUsedThor: []
+            }
         },
         User: function (id, name) {
             this.id = id;
@@ -3032,75 +3029,6 @@
                     else {
                         if (typeof basicBot.settings.themeLink === "string")
                             API.sendChat(subChat(basicBot.chat.genres, {link: basicBot.settings.themeLink}));
-                    }
-                }
-            },
-
-            thorCommand: {
-              command: ['22'],
-              rank: 'user',
-              type: 'exact',
-              functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                      if (basicBot.settings.thorCommand){
-                        var id = chat.uid,
-                              isDj = API.getDJ().id == id ? true : false,
-                              from = chat.un,
-                              djlist = API.getWaitList(),
-                              inDjList = false,
-                              oldTime = 0,
-                              usedThor = false,
-                              indexArrUsedThor,
-                              thorCd = false,
-                              timeInMinutes = 0,
-                              worthyAlg = Math.floor(Math.random() * 5),
-                              worthy = worthyAlg == 0 ? true : false;
-
-                          for (var i = 0; i < djlist.length; i++) {
-                              if (djlist[i].id == id)
-                                  inDjList = true;
-                          }
-
-                          if (inDjList) {
-                              for (var i = 0; i < basicBot.room.usersUsedThor.length; i++) {
-                                  if (basicBot.room.usersUsedThor[i].id == id) {
-                                      oldTime = basicBot.room.usersUsedThor[i].time;
-                                      usedThor = true;
-                                      indexArrUsedThor = i;
-                                  }
-                              }
-
-                              if (usedThor) {
-                                  timeInMinutes = (basicBot.settings.thorCooldown + 1) - (Math.floor((oldTime - Date.now()) * Math.pow(10, -5)) * -1);
-                                  thorCd = timeInMinutes > 0 ? true : false;
-                                  if (thorCd == false)
-                                      basicBot.room.usersUsedThor.splice(indexArrUsedThor, 1);
-                              }
-
-                              if (thorCd == false || usedThor == false) {
-                                  var user = {id: id, time: Date.now()};
-                                  basicBot.room.usersUsedThor.push(user);
-                              }
-                          }
-
-                          if (!inDjList) {
-                              return API.sendChat(subChat(basicBot.chat.thorNotClose, {name: from}));
-                          } else if (thorCd) {
-                              return API.sendChat(subChat(basicBot.chat.thorcd, {name: from, time: timeInMinutes}));
-                          }
-
-                          if (worthy) {
-                            if (API.getWaitListPosition(id) != 0)
-                            basicBot.userUtilities.moveUser(id, 1, false);
-                            API.sendChat(subChat(basicBot.chat.thorWorthy, {name: from}));
-                          } else {
-                            if (API.getWaitListPosition(id) != djlist.length - 1)
-                            basicBot.userUtilities.moveUser(id, djlist.length, false);
-                            API.sendChat(subChat(basicBot.chat.thorNotWorthy, {name: from}));
-                          }
-                        }
                     }
                 }
             },
