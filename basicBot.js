@@ -215,7 +215,7 @@
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            thorCommand: true,
+            thorCommand: false,
             thorCooldown: 10,
             lockskipPosition: 3,
             lockskipReasons: [
