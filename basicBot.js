@@ -215,7 +215,7 @@
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            thorCommand: false,
+            thorCommand: true,
             thorCooldown: 10,
             lockskipPosition: 3,
             lockskipReasons: [
@@ -3037,7 +3037,7 @@
             },
 
             thorCommand: {
-              command: 'thor',
+              command: '22',
               rank: 'user',
               type: 'exact',
               functionality: function (chat, cmd) {
