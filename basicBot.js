@@ -1820,7 +1820,7 @@
 			},
             
             kissCommand: {
-				command: ['22', 'robot'],
+				command: ['robot'],
 				rank: 'user',
 				type: 'startsWith',
 				kisses: [
