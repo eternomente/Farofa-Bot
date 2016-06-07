@@ -190,7 +190,7 @@
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
-        settings: {
+        settings: {-=-
             botName: "basicBot",
             language: "portuguese",
             chatLink: "https://rawgit.com/BotFarofa/Farofa-Bot/master/lang/pt.json",
