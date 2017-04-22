@@ -191,7 +191,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "PlanetaPlug",
             language: "portuguese",
             chatLink: "https://rawgit.com/BotFarofa/Farofa-Bot/master/lang/pt.json",
             startupCap: 1, // 1-200
